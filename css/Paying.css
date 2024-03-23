@@ -1,0 +1,187 @@
+.wrapper{
+    background-image: url(../images/resort-title-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    z-index: 0;
+    position: relative;
+    height: 75vh;
+    min-width: 800px;
+    margin: 40px;
+
+}
+
+.Paying-title{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Paying-title > h1{
+    font-size: 70px;
+    color: #fff;
+    letter-spacing: 0;
+    font-weight: 300;
+    font-family: Jost, serif;
+}
+.Paying-main ul img{
+    width: 40px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.Paying-main{
+    float: left;
+    width: 900px;
+}
+.Paying-main h2{
+    font-size: 30px;
+    color: #000;
+    letter-spacing: 0;
+    font-weight: 300;
+    font-family: Jost, serif;
+    background: rgb(142, 141, 141) ;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+   
+}
+.Paying-main >h2{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Paying-main ul{
+    background-color: antiquewhite;
+}
+.Paying-main input{
+width: 20px;
+margin-left: 10px;
+}
+.Paying-main ul li{
+    list-style-type: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.Payingconten{
+    padding: 20px 100px;
+}
+.Paying-main table{
+    width: 100%;
+    padding: 20px 25px;
+    background-color: antiquewhite;
+}
+.Paying-main table input {
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    margin: 15px 10px;
+    border-radius: 3px;
+}
+.Paying-main table select{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.Paying-main table button{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    background-color: #1490AC;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.Paying-main table button:hover{
+    background-color: rgba(20,64,74,255);
+    color: white;
+}
+.Paying-main table span{
+    color: red;
+}
+.Paying-main table .row-big input{
+    margin-top: 15px;
+    width: 20px;
+    padding: 0px;
+}
+.Paying-main table .row-big label{
+    margin-top: -10px;
+}
+.row-end{
+    text-align: center;
+}
+.first-row img{
+    width: 40px;
+    height: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+.second-row img{
+    width: 180px;
+    height: 100px;;
+}
+.row4{
+ display: flex;
+ align-items: center;
+}
+.row4 p{
+    color: rgb(238, 103, 45);
+    text-decoration: underline;
+}
+.Paying-main table{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.Booking-detail h2{
+    font-size: 30px;
+    color: #000;
+    letter-spacing: 0;
+    font-weight: 300;
+    font-family: Jost, serif;
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 1px dotted black;
+}
+.Booking-detail{
+    background-color: rgba(243, 237, 233, 0.667);
+    padding-top: 20px ;
+    border-radius: 10px;
+    margin-left: 920px;
+}
+.Booking-detail table{
+    width: 100%;
+    padding: 10px;
+    padding-left: 20px;
+}
+.Booking-detail table td{
+    height: 47px;
+}
+.Booking-detail table td:first-child{
+    width: 240px;
+}
+.Booking-detail input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.Booking-detail button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #1490AC;
+}
+.Booking-detail button:hover{
+    background-color: rgba(20,64,74,255);
+    color: white;
+}
+
+
+

@@ -1,0 +1,137 @@
+.wrapper{
+    background-image: url(../images/resort-title-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    z-index: 0;
+    position: relative;
+    height: 75vh;
+    min-width: 800px;
+    margin: 40px;
+
+}
+.booking-main{
+    display: flex;
+    margin-top: 400px;
+    
+}
+.box-left{
+    margin-top: 50px;
+    background-color: rgba(20,64,74,255);
+    padding: 30px 15px ;
+    width: 500px;
+    height: 270px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.small-box{
+    display: flex;
+    align-items: center;
+}
+.form-group{
+    color: white;
+    padding: 15px 0;
+    margin:0 0 15px; 
+    background-color: #1490AC;
+    text-align: center;
+    border-radius: 5px;
+    width : 50%;
+    height: 50%;
+}
+.form-group~.form-group{
+    margin-left: 15px;
+}
+input{
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    height: 50px;
+    width: 100%;
+    padding: 6px 12px;
+}
+.small-box select{
+    width: 100%;
+    border-radius: 8px;
+}
+select{
+    font-size: 18px;
+    height: 30px;
+    width: 60%;
+    margin-top: 10px;
+}
+.infomation-person select{
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.room-type td{
+   padding-right:50px;
+   border-top: 1px solid rgb(212, 208, 208);
+   margin: 0;
+   padding: 10px 0;
+}
+.box-right{
+ margin-top: 70px;
+ margin-left: 120px;   
+}
+.box-right .room-type tbody tr:first-child td {
+    font-weight: bold;
+    padding: 15px 0px;
+}
+input{
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(145, 143, 143);
+    border-radius: 8px;
+    margin-top: 10px;
+}
+table,textarea{
+    width: 100%;
+}
+.infomation-person td{
+    padding: 8px;
+
+}
+.infomation-person p{
+    padding: 10px 0px;
+}
+.checkbox{
+    width: 15px;
+    height: 15px;
+}
+.btn-send{
+    width: 60px;
+    height: 40px;
+    background-color:#1490AC ;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+}
+.btn-send:hover{
+    background-color: rgba(20,64,74,255);
+}
+.Booking-title{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Booking-title > h1{
+    font-size: 70px;
+    color: #fff;
+    letter-spacing: 0;
+    font-weight: 300;
+    font-family: Jost, serif;
+}
+
+

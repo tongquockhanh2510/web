@@ -1,0 +1,8 @@
+@font-face{
+    font-family: 'Shelia VNF';
+    src: url('../fonts/Shelia VNF/SheliaVNF.woff2') format('woff2'),
+        url('../fonts/Shelia VNF/SheliaVNF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
